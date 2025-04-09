@@ -40,10 +40,11 @@ Guías de instalación y configuración de herramientas de desarrollo para Linux
 | [install-plsq.md](install-plsq.md) | Cliente PostgreSQL (psql) |
 | [install-duckdb.md](install-duckdb.md) | Base de datos analítica embebida |
 
-### 6. Kubernetes
+### 6. Contenedores y Kubernetes
 
 | Guía | Descripción |
 |------|-------------|
+| [install-docker.md](install-docker.md) | Docker y Docker Compose |
 | [install-kubectl.md](install-kubectl.md) | kubectl, k9s, kustomize, minikube |
 
 ### 7. Utilidades
