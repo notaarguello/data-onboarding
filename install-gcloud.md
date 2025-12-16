@@ -57,6 +57,16 @@ gcloud config configurations activate personal
 gcloud config configurations activate trabajo
 ```
 
+## Setear version de python para gcloud
+
+gcloud usa python y está bueno dejar fija la version de python que queremos usar:
+```bash
+uv python list # Listamos con uv las disponibles y elegimos una .local/share/uv
+export CLOUDSDK_PYTHON="$HOME/.local/share/uv/python/cpython-3.13.11-macos-aarch64-none/bin/python3.13"
+```
+
+Si queremos podemos agregar eso a ~/.zshrc o ~/.bashrc
+
 ## Cheatsheet
 
 ```bash
