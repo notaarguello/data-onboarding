@@ -71,6 +71,7 @@ git clone git@github-trabajo:empresa/repo.git
 
 ```bash
 ssh-keygen -t ed25519 -C "email"  # Generar nueva clave
+ssh-keygen -t ed25519 -f ~/.ssh/foobar -C "email" # Generar nueva clave con un nombre de archivo específico
 ssh-add ~/.ssh/id_ed25519         # Agregar clave al agente
 ssh user@host                     # Conectar a servidor
 ssh -i ~/.ssh/otra_clave host     # Usar clave específica

@@ -15,7 +15,7 @@ Guías de instalación y configuración de herramientas de desarrollo para Linux
 
 | Guía | Descripción |
 |------|-------------|
-| [installar-git.md](installar-git.md) | Sistema de control de versiones |
+| [installar-git.md](install-git.md) | Sistema de control de versiones |
 | [install-ssh.md](install-ssh.md) | Configuración de claves SSH |
 | [install-gh.md](install-gh.md) | GitHub CLI - gestión de repos desde terminal |
 
